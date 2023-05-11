@@ -12,15 +12,8 @@ Projeto desenvolvido para a matéria de Front-End - UCB. E em paralelo é um pro
   <a href="#memo-licença">Licença</a>
 </p>
 
-<p align="center">
-  <img alt="License" src="[https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000](http://127.0.0.1:5500/PAGE1-%20FRONT/assets/home.html)">
-</p>
-
 <br>
 
-<p align="center">
-  <img alt="projeto LyramShop" src=".github/preview.jpg" width="100%">
-</p>
 
 ## 🚀 Tecnologias
 
