@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos Fornecedor</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .navbar {
+      background-color: #f1f1f1;
+      padding: 10px;
+    }
+    
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    .navbar li {
+      margin: 0 10px;
+    }
+    
+    .square-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+    }
+    
+    .square {
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+      background-color: #f1f1f1;
+      border-radius: 10px;
+      text-align: center;
+    }
+    
+    .square h3 {
+      margin-bottom: 10px;
+    }
+    
+    .square p {
+      font-size: 14px;
+    }
+    
+    .square form {
+      margin-top: 10px;
+    }
+    
+    .square form input[type="text"] {
+      width: 150px;
+      padding: 5px;
+    }
+    
+    .square form input[type="submit"] {
+      display: block;
+      margin-top: 5px;
+      padding: 8px 12px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="/PAGE1- FRONT/assets/home.html">Home</a></li>
+      <li><a href="/PAGE1- FRONT/assets/CadastramentoProdutoFornecedor.html">Cadastramento de Produtos</a></li>
+      <!-- <li><a href="/PAGE1- FRONT/assets/ProdutosFornecedor.html">Meus Produtos</a></li> -->
+    </ul>
+  </div>
+  
+  <div class="square-grid">
+    <div class="square">
+      <h3>OBOTICÁRIO</h3>
+      <p>37 vendidos</p>
+      <form>
+        <input type="text" placeholder="Digite o valor">
+        <p>Formatar valor do produto.</p>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+    
+    <div class="square">
+      <h3>NATURA</h3>
+      <p>45 vendidos</p>
+      <form>
+        <input type="text" placeholder="Digite o valor">
+        <p>Formatar valor do produto.</p>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+    
+    <div class="square">
+      <h3>DEMILLUS</h3>
+      <p>2 vendidos</p>
+      <form>
+        <input type="text" placeholder="Digite o valor">
+        <p>Formatar valor do produto.</p>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+    
+    <!-- Adicione mais quadrados conforme necessário -->
+  </div>
+</body>
+</html>

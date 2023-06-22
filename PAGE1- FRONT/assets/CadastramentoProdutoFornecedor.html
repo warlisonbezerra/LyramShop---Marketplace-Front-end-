@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastrar Produto</title>
+  <link rel="stylesheet" href="/PAGE1- FRONT/styles/style.css">
+</head>
+<body>
+  <div class="sidebar">
+    <!-- Conteúdo do sidebar -->
+    <div class="sidebar">
+        <ul class="sidebar-menu">
+          <li class="menu-item">
+            <a href="/PAGE1- FRONT/assets/home.html">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="/PAGE1- FRONT/assets/produtos.html">Produtos</a>
+          </li>
+          <li class="menu-item">
+            <a href="/PAGE1- FRONT/assets/perfilFornecedor.html">Perfil</a>
+          </li>
+          <li class="menu-item">
+            <a href="/PAGE1- FRONT/assets/ProdutosFornecedor.html">Meus produtos</a>
+          </li>
+        </ul>
+      </div>
+      
+  </div>
+
+  <div class="content">
+    <div id="fornecedor1" class="user-profile">
+        <img src="/PAGE1- FRONT/image/Avatar.png" alt="Foto do fornecedor" class="avatar">
+        <div class="user-details">
+          <h2 class="user-name">Fornecedor 1</h2>
+          <p class="user-location">DF - Brasília</p>
+          <a href="/PAGE1- FRONT/assets/home.html" class="d-inline-flex link-body-emphasis text-decoration-none">
+            <img src="/PAGE1- FRONT/image/Pink_Magenta_White_Modern_Online_Shop_Logo-removebg-preview.png" alt="Imagem-logo" width="40px" height="40px">
+          </a>
+        </div>
+      </div>
+
+
+      
+
+    <div class="progress-bar"></div>
+
+    <form class="product-form">
+      <h2>Cadastrar Produto</h2>
+      <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+      </div>
+      <div class="form-group">
+        <label for="marca">Marca:</label>
+        <input type="text" id="marca" name="marca" required>
+      </div>
+      <div class="form-group">
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" name="quantidade" required>
+      </div>
+      <div class="form-group">
+        <label for="preco">Preço:</label>
+        <input type="number" id="preco" name="preco" step="0.01" required>
+      </div>
+      <div class="form-group">
+        <label for="imagem">Imagem:</label>
+        <input type="file" id="imagem" name="imagem" accept="image/*">
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
